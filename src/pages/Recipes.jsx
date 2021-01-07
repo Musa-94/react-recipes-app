@@ -1,16 +1,16 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
+import Search from '../components/Search';
+import RecipesList from '../components/RecipesList';
 
 class Recipes extends PureComponent {
     render() {
         return (
-            <div>
-                <h1> Hello Recipes Page </h1>
-            </div>
+            <>
+                <Search/>
+                <RecipesList />
+            </>
         );
     }
 }
-
-Recipes.propTypes = {};
 
 export default Recipes;
