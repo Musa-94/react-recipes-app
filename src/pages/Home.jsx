@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import Header from '../components/Header';
+import Header from '../components/Header.jsx';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 

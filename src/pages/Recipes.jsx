@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
 
 class Recipes extends PureComponent {
     render() {
@@ -10,7 +9,5 @@ class Recipes extends PureComponent {
         );
     }
 }
-
-Recipes.propTypes = {};
 
 export default Recipes;

@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
 
 class SingleRecipe extends PureComponent {
     render() {
@@ -10,7 +9,5 @@ class SingleRecipe extends PureComponent {
         );
     }
 }
-
-SingleRecipe.propTypes = {};
 
 export default SingleRecipe;
