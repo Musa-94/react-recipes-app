@@ -1,11 +1,14 @@
 import React, { PureComponent } from 'react';
+import Search from '../components/Search.jsx';
+import RecipesList from '../components/RecipesList.jsx';
 
 class Recipes extends PureComponent {
     render() {
         return (
-            <div>
-                <h1> Hello Recipes Page </h1>
-            </div>
+            <>
+                <Search/>
+                <RecipesList />
+            </>
         );
     }
 }

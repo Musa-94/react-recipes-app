@@ -3784,7 +3784,6 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 
 
-
 var Home_Home = /*#__PURE__*/function (_PureComponent) {
   inherits_default()(Home, _PureComponent);
 
@@ -3803,8 +3802,8 @@ var Home_Home = /*#__PURE__*/function (_PureComponent) {
         title: 'amazing recipes',
         children: /*#__PURE__*/react_default.a.createElement(Link, {
           to: '/recipes',
-          className: 'text-uppercase btn btn-secondary btn-lg mt-3',
-          children: 'search recipes'
+          children: 'search recipes',
+          className: 'text-uppercase btn btn-secondary btn-lg mt-3'
         })
       });
     }
@@ -3813,8 +3812,77 @@ var Home_Home = /*#__PURE__*/function (_PureComponent) {
   return Home;
 }(react["PureComponent"]);
 
-Home_Home.propTypes = {};
 /* harmony default export */ var pages_Home = (Home_Home);
+// CONCATENATED MODULE: ./src/components/Search.jsx
+
+
+
+
+
+
+function Search_createSuper(Derived) { var hasNativeReflectConstruct = Search_isNativeReflectConstruct(); return function _createSuperInternal() { var Super = getPrototypeOf_default()(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = getPrototypeOf_default()(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return possibleConstructorReturn_default()(this, result); }; }
+
+function Search_isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+
+
+var Search_Search = /*#__PURE__*/function (_PureComponent) {
+  inherits_default()(Search, _PureComponent);
+
+  var _super = Search_createSuper(Search);
+
+  function Search() {
+    classCallCheck_default()(this, Search);
+
+    return _super.apply(this, arguments);
+  }
+
+  createClass_default()(Search, [{
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react_default.a.createElement("div", null, "Hello From Search");
+    }
+  }]);
+
+  return Search;
+}(react["PureComponent"]);
+
+/* harmony default export */ var components_Search = (Search_Search);
+// CONCATENATED MODULE: ./src/components/RecipesList.jsx
+
+
+
+
+
+
+function RecipesList_createSuper(Derived) { var hasNativeReflectConstruct = RecipesList_isNativeReflectConstruct(); return function _createSuperInternal() { var Super = getPrototypeOf_default()(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = getPrototypeOf_default()(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return possibleConstructorReturn_default()(this, result); }; }
+
+function RecipesList_isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+
+
+var RecipesList_RecipesList = /*#__PURE__*/function (_PureComponent) {
+  inherits_default()(RecipesList, _PureComponent);
+
+  var _super = RecipesList_createSuper(RecipesList);
+
+  function RecipesList() {
+    classCallCheck_default()(this, RecipesList);
+
+    return _super.apply(this, arguments);
+  }
+
+  createClass_default()(RecipesList, [{
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react_default.a.createElement("div", null, "Hello from Recipes List");
+    }
+  }]);
+
+  return RecipesList;
+}(react["PureComponent"]);
+
+/* harmony default export */ var components_RecipesList = (RecipesList_RecipesList);
 // CONCATENATED MODULE: ./src/pages/Recipes.jsx
 
 
@@ -3825,6 +3893,8 @@ Home_Home.propTypes = {};
 function Recipes_createSuper(Derived) { var hasNativeReflectConstruct = Recipes_isNativeReflectConstruct(); return function _createSuperInternal() { var Super = getPrototypeOf_default()(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = getPrototypeOf_default()(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return possibleConstructorReturn_default()(this, result); }; }
 
 function Recipes_isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+
 
 
 
@@ -3842,7 +3912,7 @@ var Recipes_Recipes = /*#__PURE__*/function (_PureComponent) {
   createClass_default()(Recipes, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react_default.a.createElement("div", null, /*#__PURE__*/react_default.a.createElement("h1", null, " Hello Recipes Page "));
+      return /*#__PURE__*/react_default.a.createElement(react_default.a.Fragment, null, /*#__PURE__*/react_default.a.createElement(components_Search, null), /*#__PURE__*/react_default.a.createElement(components_RecipesList, null));
     }
   }]);
 
@@ -3899,6 +3969,7 @@ function Default_isNativeReflectConstruct() { if (typeof Reflect === "undefined"
 
 
 
+
 var Default_Default = /*#__PURE__*/function (_PureComponent) {
   inherits_default()(Default, _PureComponent);
 
@@ -3913,14 +3984,23 @@ var Default_Default = /*#__PURE__*/function (_PureComponent) {
   createClass_default()(Default, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react_default.a.createElement("div", null, /*#__PURE__*/react_default.a.createElement("h1", null, " Hello Error Page "));
+      return /*#__PURE__*/react_default.a.createElement(Header, {
+        title: '404',
+        children: /*#__PURE__*/react_default.a.createElement(react_default.a.Fragment, null, /*#__PURE__*/react_default.a.createElement("h2", {
+          className: 'text-light text-uppercase'
+        }, "You are in the wrong place"), /*#__PURE__*/react_default.a.createElement(Link, {
+          to: '/',
+          children: 'Return Home',
+          className: 'text-uppercase btn btn-secondary btn-lg mt-3'
+        })),
+        styleClass: 'default-hero'
+      });
     }
   }]);
 
   return Default;
 }(react["PureComponent"]);
 
-Default_Default.propTypes = {};
 /* harmony default export */ var pages_Default = (Default_Default);
 // CONCATENATED MODULE: ./src/images/webLogo.png
 /* harmony default export */ var webLogo = (__webpack_require__.p + "images/webLogo.png");
