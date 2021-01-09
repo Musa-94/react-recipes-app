@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CssWebpackPlugin = require('mini-css-extract-plugin');
 
-const BUILD_PATH = './dist';
+const BUILD_PATH = './build';
 
 module.exports = {
     entry: path.resolve(__dirname, './src/index.js'),
@@ -12,7 +12,7 @@ module.exports = {
     },
     devServer: {
         port: 3000,
-        contentBase: path.resolve(__dirname, './dist'),
+        contentBase: path.resolve(__dirname, BUILD_PATH),
         hot: true,
         open: true,
         watchContentBase: true,
