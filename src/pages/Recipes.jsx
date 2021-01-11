@@ -1,16 +1,14 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import Search from '../components/Search.jsx';
 import RecipesList from '../components/RecipesList.jsx';
 
-class Recipes extends PureComponent {
-    render() {
-        return (
-            <>
-                <Search/>
-                <RecipesList />
-            </>
-        );
-    }
+const Recipes = () => {
+    return (
+        <>
+            <Search/>
+            <RecipesList />
+        </>
+    );
 }
 
-export default Recipes;
+export default React.memo(Recipes);

@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../images/webLogo.png';
 import { Link } from 'react-router-dom';
 
-export default function Navbar() {
+function Navbar() {
     return (
         <nav className={'navbar navbar-expand-lg navbar-light bg-light'}>
             <Link to='/' className={'navbar-brand'}>
@@ -27,3 +27,5 @@ export default function Navbar() {
         </nav>
     );
 }
+
+export default React.memo(Navbar);
