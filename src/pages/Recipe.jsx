@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { sendGetReguest } from '../utils/sendGetRequest';
+import { sendGetRequest } from '../utils/sendGetRequest';
 
 const Recipe = props => {
     const imgStyle = {
@@ -12,7 +12,7 @@ const Recipe = props => {
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
-        id && sendGetReguest(id)
+        id && sendGetRequest(id)
             .then(res => setRecipe(res.recipe));
         return () => {
             setRecipe({});
