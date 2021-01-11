@@ -11,7 +11,7 @@ import Home from '../pages/Home.jsx';
 import Recipes from '../pages/Recipes.jsx';
 import Navbar from '../components/Navbar.jsx';
 import Default from '../pages/Default.jsx';
-import SingleRecipe from '../pages/SingleRecipe.jsx';
+import Recipe from '../pages/Recipe.jsx';
 
 function App() {
     return (
@@ -22,7 +22,7 @@ function App() {
                     <Switch>
                         <Route path="/" exact component={Home} />
                         <Route path="/recipes" exact component={Recipes}/>
-                        <Route path="/recipes/:id" component={SingleRecipe}/>
+                        <Route path="/recipes/:id" component={Recipe}/>
                         <Route component={Default}/>
                     </Switch>
                 </main>

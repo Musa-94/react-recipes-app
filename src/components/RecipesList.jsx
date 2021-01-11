@@ -1,13 +1,32 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
+import SingleRecipe from '../pages/SingleRecipe.jsx';
 
-class RecipesList extends PureComponent {
-    render() {
-        return (
+const RecipesList = props => {
+    const { recipes } = props;
+
+    return (
+        <div className={'container py-5'}>
+            {/* title */}
             <div>
-                Hello from Recipes List
+                <div className='col-10 mx-auto col-md-6 text-center text-uppercase mb-3'>
+                    <h1 className={'text-slanted'}> recipe list </h1>
+                </div>
             </div>
-        );
-    }
+            {/* end of title */}
+            <div className={'row'}>
+                {recipes.map((recipe, index) =>
+                    <SingleRecipe
+                        key={index}
+                        title={recipe.title}
+                        recipeId={recipe.recipe_id}
+                        imageUrl={recipe.image_url}
+                        sourceUrl={recipe.source_url}
+                        publisher={recipe.publisher}
+                    />
+                )}
+            </div>
+        </div>
+    );
 }
 
-export default RecipesList;
+export default React.memo(RecipesList);
