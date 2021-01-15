@@ -13,7 +13,7 @@ const Recipe = props => {
 
     useEffect(() => {
         id && api.sendGetRequestById(id)
-            .then(res => setRecipe(res.recipe));
+        .then(res => setRecipe(res.recipe));
         return () => {
             setRecipe({});
         };
@@ -22,7 +22,7 @@ const Recipe = props => {
     useEffect(() => {
         !Object.values(recipe).length ?
         setLoading(true) :
-        setLoading(false)
+        setLoading(false);
     }, [recipe])
 
     const {

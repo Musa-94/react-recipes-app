@@ -5,7 +5,7 @@ export const sendGetRequestById = id => {
 }
 
 export const sendGetRequestByRecipe = recipes => {
-    return fetch(`https://forkify-api.herokuapp.com/api/search?q=${recipes}`)
+    return fetch(`https://forkify-api.herokuapp.com/api/search?q=${recipes.toLowerCase()}`)
         .then(res => res.json())
         .catch(err => `Error on sendGetRequest ${err}`)
 }
