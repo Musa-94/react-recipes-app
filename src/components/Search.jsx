@@ -3,6 +3,7 @@ import React from 'react';
 const Search = props => {
     const {
         search,
+        isError,
         handleSubmit,
         handleChange,
     } = props;
@@ -19,11 +20,11 @@ const Search = props => {
                         <label htmlFor={'search'} className={'text-capitalize'}>
                             types recipes separated by comma
                         </label>
-                        <div className={'input-group'}>
+                        <div className={'input-group container col-sm'}>
                             <input type={'text'}
                                    name={'search'}
                                    value={search}
-                                   onChange={handleChange}
+                                   onChange={event => handleChange(event)}
                                    className={'form-control'}
                                    placeholder={'chicken, onion, carrots'}
                             />
@@ -35,6 +36,13 @@ const Search = props => {
                                     <i className={'fas fa-search'} />
                                 </button>
                             </div>
+                            {isError ?
+                                <div className={'col-sm'}>
+                                    <span children={'this recipe was not found'}
+                                          className={'text-danger text-capitalize'}
+                                    />
+                                </div> : null
+                            }
                         </div>
                     </form>
                 </div>

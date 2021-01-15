@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { sendGetRequest } from '../utils/sendGetRequest';
+import * as api from '../utils/restAPI';
 
 const Recipe = props => {
     const imgStyle = {
@@ -12,7 +12,7 @@ const Recipe = props => {
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
-        id && sendGetRequest(id)
+        id && api.sendGetRequestById(id)
             .then(res => setRecipe(res.recipe));
         return () => {
             setRecipe({});
