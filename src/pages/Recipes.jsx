@@ -1,6 +1,7 @@
 import React, { useCallback, useState, useEffect } from 'react';
-import Search from '../components/Search.jsx';
-import RecipesList from '../components/RecipesList.jsx';
+import Search from '../components/search/Search.jsx';
+import RecipesList from '../components/recipesList/RecipesList.jsx';
+import { data } from '../data/select';
 import { recipeData } from '../data/tempList';
 import * as api from '../utils/restAPI';
 
@@ -24,7 +25,7 @@ const Recipes = () => {
     const handleSubmit = useCallback(event => {
         event.preventDefault();
 
-        api.sendGetRequestByRecipe(search)
+        search.trim() && api.sendGetRequestByRecipe(search)
         .then(res => res?.recipes ?
             setRecipes(res.recipes) :
             setIsError(true)
@@ -38,6 +39,7 @@ const Recipes = () => {
             <Search
                 search={search}
                 isError={isError}
+                selects={data}
                 handleChange={handleChange}
                 handleSubmit={handleSubmit}
             />

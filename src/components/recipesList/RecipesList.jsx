@@ -1,5 +1,5 @@
 import React from 'react';
-import SingleRecipe from '../pages/SingleRecipe.jsx';
+import SingleRecipe from '../../pages/SingleRecipe.jsx';
 
 const RecipesList = props => {
     const { recipes } = props;

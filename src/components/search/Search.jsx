@@ -1,9 +1,12 @@
 import React from 'react';
 
+import SelectRecipes from './components/SelectRecipes.jsx';
+
 const Search = props => {
     const {
         search,
         isError,
+        selects,
         handleSubmit,
         handleChange,
     } = props;
@@ -23,10 +26,12 @@ const Search = props => {
                         <div className={'input-group container col-sm'}>
                             <input type={'text'}
                                    name={'search'}
+                                   list={'select'}
                                    value={search}
-                                   onChange={event => handleChange(event)}
-                                   className={'form-control'}
-                                   placeholder={'chicken, onion, carrots'}
+                                   required={true}
+                                   onChange={handleChange}
+                                   className={'col-sm-10 custom-select custom-select-sm'}
+                                   placeholder={'chicken, onion, carrot...'}
                             />
                             <div className='input-group-append'>
                                 <button type={'submit'}
@@ -36,14 +41,22 @@ const Search = props => {
                                     <i className={'fas fa-search'} />
                                 </button>
                             </div>
-                            {isError ?
-                                <div className={'col-sm'}>
-                                    <span children={'this recipe was not found'}
-                                          className={'text-danger text-capitalize'}
+                            <datalist id={'select'}>
+                                { selects.map((select, index) =>
+                                    <SelectRecipes
+                                        key={index}
+                                        select={select}
                                     />
-                                </div> : null
-                            }
+                                )}
+                            </datalist>
                         </div>
+                        {isError ?
+                            <div className={'col-sm'}>
+                                <span children={'this recipe was not found'}
+                                      className={'text-danger text-capitalize'}
+                                />
+                            </div> : null
+                        }
                     </form>
                 </div>
             </div>

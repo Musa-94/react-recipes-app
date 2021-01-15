@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d4561a7-8e12-4108-88e4-96b1463e364e" name="Default Changelist" comment="" />
+    <list default="true" id="6d4561a7-8e12-4108-88e4-96b1463e364e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/search/components/SelectRecipes.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/Search.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Recipes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Recipes.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +31,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.12" />
@@ -42,11 +47,12 @@
       <recent name="D:\_COACH\react-recipes-app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\_COACH\react-recipes-app\src\components\search" />
       <recent name="D:\_COACH\react-recipes-app\src\app\tests" />
       <recent name="D:\_COACH\react-recipes-app\src\app" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.build:prod">
     <configuration name="build-dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -57,21 +63,21 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="build-prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$USER_HOME$/AppData/Local/Temp/Rar$DIa8960.48084/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build-prod" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build:prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:prod" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -99,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build:prod" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.clean" />
         <item itemvalue="npm.build-dev (1)" />
-        <item itemvalue="npm.build-prod" />
       </list>
     </recent_temporary>
   </component>
@@ -128,6 +134,7 @@
       <workItem from="1610614724660" duration="795000" />
       <workItem from="1610664647042" duration="1760000" />
       <workItem from="1610736594466" duration="293000" />
+      <workItem from="1610736888650" duration="3798000" />
     </task>
     <servers />
   </component>
@@ -144,5 +151,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Home from '../pages/Home.jsx';
 import Recipes from '../pages/Recipes.jsx';
-import Navbar from '../components/Navbar.jsx';
+import Navbar from '../components/navbar/Navbar.jsx';
 import Default from '../pages/Default.jsx';
 import Recipe from '../pages/Recipe.jsx';
 
