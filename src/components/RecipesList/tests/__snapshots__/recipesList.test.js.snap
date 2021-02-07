@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecipesList snapshot should correct render 1`] = `
+<div
+  className="container py-5"
+>
+  <div>
+    <div
+      className="col-10 mx-auto col-md-6 text-center text-uppercase mb-3"
+    >
+      <h1
+        className="text-slanted"
+      >
+         recipe list 
+      </h1>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+    >
+      <div
+        className="card"
+        style={
+          Object {
+            "height": "100%",
+          }
+        }
+      >
+        <img
+          alt="img"
+          className="img-card-top"
+          id="47746"
+          src="http://forkify-api.herokuapp.com/images/best_pizza_dough_recipe1b20.jpg"
+          style={
+            Object {
+              "height": "14rem",
+            }
+          }
+        />
+        <div
+          className="card-body text-capitalize"
+        >
+          <h6>
+            Best Pizza Dough Ever
+          </h6>
+          <h6
+            className="text-warning text-slanted"
+          >
+            provided by 101 Cookbooks
+          </h6>
+        </div>
+        <div
+          className="card-footer"
+        >
+          <a
+            className="btn btn-primary text-capitalize"
+            href="#/recipes/47746"
+          >
+            details
+          </a>
+          <a
+            className="btn btn-success mx-2 text-capitalize"
+            href="http://www.101cookbooks.com/archives/001199.html"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            recipe url
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

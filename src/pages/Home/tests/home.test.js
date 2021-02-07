@@ -1,9 +1,9 @@
 import React from 'react';
-import App from '../App.jsx';
+import Home from '../Home';
 
-describe('App snapshot', () => {
+describe('Home snapshot', () => {
     it('should correct renderer', () => {
-        const component = renderer(<App/>);
+        const component = renderer(<Home/>);
 
         expect(component).toMatchSnapshot();
     });

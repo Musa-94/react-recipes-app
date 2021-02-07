@@ -1,9 +1,9 @@
 import React from 'react';
-import App from '../App.jsx';
+import Recipes from '../Recipes';
 
-describe('App snapshot', () => {
+describe('Recipes snapshot', () => {
     it('should correct renderer', () => {
-        const component = renderer(<App/>);
+        const component = renderer(<Recipes/>);
 
         expect(component).toMatchSnapshot();
     });

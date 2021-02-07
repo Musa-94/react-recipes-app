@@ -1,0 +1,1595 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Recipes snapshot should correct renderer 1`] = `
+Array [
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-10 mx-auto col-md-8 mt-5 text-center"
+      >
+        <h1
+          className="text-slanted text-capitalize"
+        >
+          search recipes with
+           
+          <strong
+            className="text-orange"
+          >
+             Food2Fork 
+          </strong>
+        </h1>
+        <form
+          className="mt-4"
+        >
+          <label
+            className="text-capitalize"
+            htmlFor="search"
+          >
+            types recipes separated by comma
+          </label>
+          <div
+            className="input-group container col-sm"
+          >
+            <input
+              className="form-control"
+              name="search"
+              onChange={[Function]}
+              placeholder="chicken, onion, carrots"
+              type="text"
+              value=""
+            />
+            <div
+              className="input-group-append"
+            >
+              <button
+                className="input-group-text bg-primary text-white"
+                onClick={[Function]}
+                type="submit"
+              >
+                <i
+                  className="fas fa-search"
+                />
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="container py-5"
+  >
+    <div>
+      <div
+        className="col-10 mx-auto col-md-6 text-center text-uppercase mb-3"
+      >
+        <h1
+          className="text-slanted"
+        >
+           recipe list 
+        </h1>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="47746"
+            src="http://forkify-api.herokuapp.com/images/best_pizza_dough_recipe1b20.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Best Pizza Dough Ever
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by 101 Cookbooks
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/47746"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://www.101cookbooks.com/archives/001199.html"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="46956"
+            src="http://forkify-api.herokuapp.com/images/fruitpizza9a19.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Deep Dish Fruit Pizza
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by The Pioneer Woman
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/46956"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://thepioneerwoman.com/cooking/2012/01/fruit-pizza/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="35477"
+            src="http://forkify-api.herokuapp.com/images/Pizza2BDip2B12B500c4c0a26c.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Pizza Dip
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by Closet Cooking
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/35477"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://www.closetcooking.com/2011/03/pizza-dip.html"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="41470"
+            src="http://forkify-api.herokuapp.com/images/BBQChickenPizzawithCauliflowerCrust5004699695624ce.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Cauliflower Pizza Crust (with BBQ Chicken Pizza)
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by Closet Cooking
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/41470"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://www.closetcooking.com/2013/02/cauliflower-pizza-crust-with-bbq.html"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="35478"
+            src="http://forkify-api.herokuapp.com/images/Pizza2BQuesadillas2B2528aka2BPizzadillas25292B5002B834037bf306b.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Pizza Quesadillas (aka Pizzadillas)
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by Closet Cooking
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/35478"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://www.closetcooking.com/2012/11/pizza-quesadillas-aka-pizzadillas.html"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="54454"
+            src="http://forkify-api.herokuapp.com/images/sweetpotatokalepizza2c6db.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Sweet Potato Kale Pizza with Rosemary & Red Onion
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by Two Peas and Their Pod
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/54454"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://www.twopeasandtheirpod.com/sweet-potato-kale-pizza-with-rosemary-red-onion/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="2ec050"
+            src="http://forkify-api.herokuapp.com/images/PizzaDip21of14f05.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Pizza Dip
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by My Baking Addiction
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/2ec050"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://www.mybakingaddiction.com/pizza-dip/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="6fab1c"
+            src="http://forkify-api.herokuapp.com/images/pizza3464.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Pizza Potato Skins
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by The Pioneer Woman
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/6fab1c"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://thepioneerwoman.com/cooking/2013/04/pizza-potato-skins/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="49346"
+            src="http://forkify-api.herokuapp.com/images/nokneadpizzadoughlahey6461467.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              No-Knead Pizza Dough
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by Bon Appetit
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/49346"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://www.bonappetit.com/recipes/2012/03/no-knead-pizza-dough"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="36453"
+            src="http://forkify-api.herokuapp.com/images/pizza292x2007a259a79.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Homemade Pizza
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by Simply Recipes
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/36453"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://www.simplyrecipes.com/recipes/homemade_pizza/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="35626"
+            src="http://forkify-api.herokuapp.com/images/Taco2BQuesadilla2BPizza2B5002B4417a4755e35.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Taco Quesadilla Pizzas
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by Closet Cooking
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/35626"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://www.closetcooking.com/2012/08/taco-quesadilla-pizza.html"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="17796"
+            src="http://forkify-api.herokuapp.com/images/237891b5e4.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Jay’s Signature Pizza Crust
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by All Recipes
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/17796"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://allrecipes.com/Recipe/Jays-Signature-Pizza-Crust/Detail.aspx"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="35097"
+            src="http://forkify-api.herokuapp.com/images/Avocado2Band2BFried2BEgg2BBreakfast2BPizza2B5002B296294dcea8a.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Avocado Breakfast Pizza with Fried Egg
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by Closet Cooking
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/35097"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://www.closetcooking.com/2012/07/avocado-breakfast-pizza-with-fried-egg.html"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="46895"
+            src="http://forkify-api.herokuapp.com/images/pizzaburgera5bd.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Pepperoni Pizza Burgers
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by The Pioneer Woman
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/46895"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://thepioneerwoman.com/cooking/2012/10/pepperoni-pizza-burgers/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="35635"
+            src="http://forkify-api.herokuapp.com/images/Thai2BChicken2BPizza2Bwith2BSweet2BChili2BSauce2B5002B435581bcf578.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Thai Chicken Pizza with Sweet Chili Sauce
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by Closet Cooking
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/35635"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://www.closetcooking.com/2012/02/thai-chicken-pizza-with-sweet-chili.html"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="47000"
+            src="http://forkify-api.herokuapp.com/images/steakhousepizza0b87.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              One Basic Pizza Crust
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by The Pioneer Woman
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/47000"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://thepioneerwoman.com/cooking/2011/09/steakhouse-pizza/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="54491"
+            src="http://forkify-api.herokuapp.com/images/peachbasilpizza6c7de.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Peach, Basil, Mozzarella, & Balsamic Pizza
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by Two Peas and Their Pod
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/54491"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://www.twopeasandtheirpod.com/peach-basil-mozzarella-balsamic-pizza/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="38812"
+            src="http://forkify-api.herokuapp.com/images/pizza_300d938bd58.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              English-Muffin Egg Pizzas
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by Real Simple
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/38812"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://www.realsimple.com/food-recipes/browse-all-recipes/english-muffin-egg-pizzas-10000000663044/index.html"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="dd21dd"
+            src="http://forkify-api.herokuapp.com/images/PizzaDough1of12edit5779.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Simple No Knead Pizza Dough
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by My Baking Addiction
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/dd21dd"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://www.mybakingaddiction.com/no-knead-pizza-dough-recipe/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="47011"
+            src="http://forkify-api.herokuapp.com/images/grilledveggie79bd.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Grilled Veggie Pizza
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by The Pioneer Woman
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/47011"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://thepioneerwoman.com/cooking/2011/07/grilled-vegetable-pizza/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="0fb8f4"
+            src="http://forkify-api.herokuapp.com/images/FlatBread21of1a180.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Spicy Chicken and Pepper Jack Pizza
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by My Baking Addiction
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/0fb8f4"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://www.mybakingaddiction.com/spicy-chicken-and-pepper-jack-pizza-recipe/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="36476"
+            src="http://forkify-api.herokuapp.com/images/howtogrillpizzad300x20086a60e1b.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              How to Grill Pizza
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by Simply Recipes
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/36476"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://www.simplyrecipes.com/recipes/how_to_grill_pizza/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="47161"
+            src="http://forkify-api.herokuapp.com/images/4364270576_302751a2a4f3c1.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              PW’s Favorite Pizza
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by The Pioneer Woman
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/47161"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://thepioneerwoman.com/cooking/2010/02/my-favorite-pizza/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="a723e8"
+            src="http://forkify-api.herokuapp.com/images/BBQChickenPizza3e2b.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Barbecue Chicken Pizza
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by My Baking Addiction
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/a723e8"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://www.mybakingaddiction.com/barbecue-chicken-pizza-recipe/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="54388"
+            src="http://forkify-api.herokuapp.com/images/avocadopizzawithcilantrosauce4bf5.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Avocado Pita Pizza with Cilantro Sauce
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by Two Peas and Their Pod
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/54388"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://www.twopeasandtheirpod.com/avocado-pita-pizza-with-cilantro-sauce/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="ead4e0"
+            src="http://forkify-api.herokuapp.com/images/PizzaMonkeyBread67f8.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Pizza Monkey Bread
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by What's Gaby Cooking
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/ead4e0"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://whatsgabycooking.com/pizza-monkey-bread/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="46892"
+            src="http://forkify-api.herokuapp.com/images/burger53be.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Supreme Pizza Burgers
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by The Pioneer Woman
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/46892"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://thepioneerwoman.com/cooking/2012/10/supreme-pizza-burgers/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-1m mx-auto col-md-6 col-lg-4 my-3"
+      >
+        <div
+          className="card"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="img"
+            className="img-card-top"
+            id="35128"
+            src="http://forkify-api.herokuapp.com/images/Strawberry2BBalsamic2BPizza2Bwith2BChicken252C2BSweet2BOnion2Band2BSmoked2BBacon2B5002B300939d125e2.jpg"
+            style={
+              Object {
+                "height": "14rem",
+              }
+            }
+          />
+          <div
+            className="card-body text-capitalize"
+          >
+            <h6>
+              Balsamic Strawberry and Chicken Pizza with Sweet Onions and Smoked Bacon
+            </h6>
+            <h6
+              className="text-warning text-slanted"
+            >
+              provided by Closet Cooking
+            </h6>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <a
+              className="btn btn-primary text-capitalize"
+              href="#/recipes/35128"
+            >
+              details
+            </a>
+            <a
+              className="btn btn-success mx-2 text-capitalize"
+              href="http://www.closetcooking.com/2012/07/balsamic-strawberry-and-chicken-pizza.html"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              recipe url
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

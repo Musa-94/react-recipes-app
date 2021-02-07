@@ -1,9 +1,9 @@
 import React from 'react';
-import App from '../App.jsx';
+import Default from '../Default';
 
-describe('App snapshot', () => {
+describe('Default snapshot', () => {
     it('should correct renderer', () => {
-        const component = renderer(<App/>);
+        const component = renderer(<Default/>);
 
         expect(component).toMatchSnapshot();
     });
