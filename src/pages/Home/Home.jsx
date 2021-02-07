@@ -1,14 +1,13 @@
 import React from 'react';
-import Header from '../components/Header.jsx';
-import { Link } from 'react-router-dom';
+import Header from '../../components/Header/Header.jsx';
 
 const Home = () => {
     return (
         <Header
             title={'amazing recipes'}
             children={
-                <Link
-                    to={'/recipes'}
+                <a
+                    href={'#/recipes'}
                     children={'search recipes'}
                     className={'text-uppercase btn btn-secondary btn-lg mt-3'}
                 />

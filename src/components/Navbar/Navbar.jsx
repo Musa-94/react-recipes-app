@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from '../images/webLogo.png';
-import { Link } from 'react-router-dom';
+import logo from '../../images/webLogo.png';
 
 function Navbar() {
     return (
         <nav className={'navbar navbar-expand-lg navbar-light bg-light'}>
-            <Link to='/' className={'navbar-brand'}>
+            <a href='/' className={'navbar-brand'}>
                 <img src={logo}
                      alt={'logo'}
                 />
-            </Link>
+            </a>
             <div className={'collapse navbar-collapse show ml-sm-5'}>
                 <ul className={'navbar-nav'}>
                     <li className={'navbar-item'}>
-                        <Link className={'nav-link'} to={'/'}>
+                        <a className={'nav-link'} href={'#/'}>
                             Home
-                        </Link>
+                        </a>
                     </li>
                     <li className={'navbar-item'}>
-                        <Link className={'nav-link'} to={'/recipes'}>
+                        <a className={'nav-link'} href={'#/recipes'}>
                             Recipes
-                        </Link>
+                        </a>
                     </li>
                 </ul>
             </div>

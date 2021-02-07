@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import * as api from '../utils/restAPI';
+import * as api from '../../../../utils/restAPI';
 
 const Recipe = props => {
     const imgStyle = {
         maxHeight: '30rem',
     };
 
-    const { id } = props.match.params;
+    const { id } = props?.match?.params;
     const [recipe, setRecipe] = useState({});
     const [loading, setLoading] = useState(false);
 
@@ -27,7 +26,7 @@ const Recipe = props => {
 
     const {
         title,
-        ingredients = [],
+        ingredients,
         image_url: imageUrl,
         source_url: sourceUrl,
         publisher,
@@ -46,7 +45,7 @@ const Recipe = props => {
             <div className={'container my-5'}>
                 <div className='row'>
                     <div className='col-10 mx-auto col-md-6 my 3'>
-                        <Link to={'/recipes'}
+                        <a href={'#/recipes'}
                               children={'back to recipes list'}
                               className={'btn btn-warning mb-5 text-capitalize'}
                         />
@@ -80,7 +79,7 @@ const Recipe = props => {
                             <h2 className={'mt-3 mb-4'}
                                 children={'Ingredients'}
                             />
-                            {ingredients.length ?
+                            {ingredients?.length ?
                                 ingredients.map((ingredient, index) =>
                                     <li key={index}
                                         children={ingredient}

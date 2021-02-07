@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot should correct renderer 1`] = `
+<main>
+  <nav
+    className="navbar navbar-expand-lg navbar-light bg-light"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+    >
+      <img
+        alt="logo"
+        src="test-file-stub"
+      />
+    </a>
+    <div
+      className="collapse navbar-collapse show ml-sm-5"
+    >
+      <ul
+        className="navbar-nav"
+      >
+        <li
+          className="navbar-item"
+        >
+          <a
+            className="nav-link"
+            href="#/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          className="navbar-item"
+        >
+          <a
+            className="nav-link"
+            href="#/recipes"
+          >
+            Recipes
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <header>
+    <div
+      className="container-fluid"
+    >
+      <div
+        className="row align-items-center header-hero"
+      >
+        <div
+          className="col text-center text-slanted"
+        >
+          <h1
+            className="text-light text-uppercase display-3 letter-spacing text-slander"
+          >
+            amazing recipes
+          </h1>
+          <a
+            className="text-uppercase btn btn-secondary btn-lg mt-3"
+            href="#/recipes"
+          >
+            search recipes
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+</main>
+`;

@@ -33,7 +33,7 @@ const SingleRecipe = props => {
                     />
                 </div>
                 <div className="card-footer">
-                    <Link to={`/recipes/${recipeId}`}
+                    <a href={`#/recipes/${recipeId}`}
                           children={'details'}
                           className={'btn btn-primary text-capitalize'}
                     />

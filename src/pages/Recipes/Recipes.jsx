@@ -1,8 +1,8 @@
 import React, { useCallback, useState, useEffect } from 'react';
-import Search from '../components/Search.jsx';
-import RecipesList from '../components/RecipesList.jsx';
-import { recipeData } from '../data/tempList';
-import * as api from '../utils/restAPI';
+import Search from '../../components/Search/Search.jsx';
+import RecipesList from '../../components/RecipesList/RecipesList.jsx';
+import { recipeData } from '../../data/tempList';
+import * as api from '../../utils/restAPI';
 
 const Recipes = () => {
     const { recipes: recipesPizza } = recipeData[0];

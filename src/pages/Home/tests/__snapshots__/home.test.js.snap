@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home snapshot should correct renderer 1`] = `
+<header>
+  <div
+    className="container-fluid"
+  >
+    <div
+      className="row align-items-center header-hero"
+    >
+      <div
+        className="col text-center text-slanted"
+      >
+        <h1
+          className="text-light text-uppercase display-3 letter-spacing text-slander"
+        >
+          amazing recipes
+        </h1>
+        <a
+          className="text-uppercase btn btn-secondary btn-lg mt-3"
+          href="#/recipes"
+        >
+          search recipes
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+`;

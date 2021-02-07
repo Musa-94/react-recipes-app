@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Recipe snapshot should correct renderer 1`] = `
+<div
+  className="container my-5"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-10 mx-auto col-md-6 my 3"
+    >
+      <a
+        className="btn btn-warning mb-5 text-capitalize"
+        href="#/recipes"
+      >
+        back to recipes list
+      </a>
+      <img
+        alt="recipe"
+        className="d-block w-100"
+        style={
+          Object {
+            "maxHeight": "30rem",
+          }
+        }
+      />
+    </div>
+    <div
+      className="col-10 mx-auto col-md-6 my-3"
+    >
+      <h6
+        className="text-uppercase"
+      />
+      <h6
+        className="text-warning text-capitalize text-slanted"
+      >
+        provided by undefined
+      </h6>
+      <a
+        className="btn btn-primary text-capitalize mt-2"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        publisher webpage
+      </a>
+      <a
+        className="btn btn-success text-capitalize mx-2 mt-2"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        recipe url
+      </a>
+      <ul
+        className="list-group mt-4"
+      >
+        <h2
+          className="mt-3 mb-4"
+        >
+          Ingredients
+        </h2>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

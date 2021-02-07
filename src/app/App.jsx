@@ -7,11 +7,11 @@ import {
 import './App.less';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Home from '../pages/Home.jsx';
-import Recipes from '../pages/Recipes.jsx';
-import Navbar from '../components/Navbar.jsx';
-import Default from '../pages/Default.jsx';
-import Recipe from '../pages/Recipe.jsx';
+import Home from '../pages/Home/Home.jsx';
+import Recipes from '../pages/Recipes/Recipes.jsx';
+import Navbar from '../components/Navbar/Navbar.jsx';
+import Default from '../pages/Default/Default.jsx';
+import Recipe from '../pages/Recipes/components/Recipe/Recipe.jsx';
 
 function App() {
     return (

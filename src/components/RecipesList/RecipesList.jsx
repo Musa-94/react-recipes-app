@@ -1,5 +1,6 @@
 import React from 'react';
-import SingleRecipe from '../pages/SingleRecipe.jsx';
+import PropTypes from 'prop-types';
+import SingleRecipe from '../../pages/Recipes/components/SingleRecipes/SingleRecipe.jsx';
 
 const RecipesList = props => {
     const { recipes } = props;
@@ -14,7 +15,7 @@ const RecipesList = props => {
             </div>
             {/* end of title */}
             <div className={'row'}>
-                {recipes.map((recipe, index) =>
+                {recipes?.map((recipe, index) =>
                     <SingleRecipe
                         key={index}
                         title={recipe.title}
@@ -27,6 +28,10 @@ const RecipesList = props => {
             </div>
         </div>
     );
+}
+
+RecipesList.propTypes = {
+    recipes: PropTypes.array,
 }
 
 export default React.memo(RecipesList);
