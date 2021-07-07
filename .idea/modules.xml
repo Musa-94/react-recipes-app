@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/recipes-app.iml" filepath="$PROJECT_DIR$/.idea/recipes-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/react-recipes-app.iml" filepath="$PROJECT_DIR$/.idea/react-recipes-app.iml" />
     </modules>
   </component>
 </project>

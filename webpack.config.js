@@ -1,105 +1,43 @@
 const path = require('path');
+const CssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CssWebpackPlugin = require('mini-css-extract-plugin');
-
-const BUILD_PATH = './dist';
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-    entry: path.resolve(__dirname, './src/index.js'),
+    entry: './src/index.js',
     output: {
-        path: path.resolve(__dirname, BUILD_PATH),
+        path: path.resolve(__dirname, './dist'),
         filename: 'index.js'
     },
     devServer: {
-        port: 3000,
-        contentBase: path.resolve(__dirname, './dist'),
-        hot: true,
+        contentBase: path.resolve(__dirname, 'dist'),
+        compress: true,
+        port: 9000,
         open: true,
-        watchContentBase: true,
-        watchOptions: {
-            ignored: /node_modules/
-        },
-        writeToDisk: filePath => {
-            return /(index.html$)|(index.js$)|(style.css$)/.test(filePath)
-        }
-    },
-    optimization: {
-        minimize: false,
+        hot: true,
     },
     module: {
         rules: [
-            {test: /\.html$/, use: "html-loader"},
-            {test: /\.less$/, use: [CssWebpackPlugin.loader, "css-loader", "less-loader"]},
-            {test: /\.css$/, use: [CssWebpackPlugin.loader, "css-loader"]},
-            {test: /\.jsx?$/,
-                exclude: /node_modules/,
-                use: {
-                    loader: 'babel-loader',
-                    options: {
-                        presets: ['@babel/preset-env', '@babel/preset-react'],
-                        plugins: [
-                            [
-                                '@babel/plugin-proposal-decorators',
-                                {
-                                    legacy: true,
-                                },
-                            ],
-                            ['@babel/plugin-proposal-class-properties', { loose: true }],
-                            '@babel/plugin-syntax-dynamic-import',
-                            '@babel/plugin-transform-regenerator',
-                            '@babel/plugin-syntax-import-meta',
-                            '@babel/plugin-proposal-json-strings',
-                            '@babel/plugin-proposal-function-sent',
-                            '@babel/plugin-proposal-export-namespace-from',
-                            '@babel/plugin-proposal-numeric-separator',
-                            '@babel/plugin-proposal-throw-expressions',
-                            '@babel/plugin-proposal-export-default-from',
-                            '@babel/plugin-proposal-logical-assignment-operators',
-                            '@babel/plugin-proposal-optional-chaining',
-                            [
-                                '@babel/plugin-proposal-pipeline-operator',
-                                {
-                                    proposal: 'minimal',
-                                },
-                            ],
-                            '@babel/plugin-proposal-nullish-coalescing-operator',
-                            '@babel/plugin-proposal-do-expressions',
-                            '@babel/plugin-proposal-function-bind',
-                            '@babel/plugin-transform-runtime',
-                            [
-                                'babel-plugin-styled-components',
-                                {
-                                    pure: true,
-                                    fileName: false,
-                                    displayName: false,
-                                },
-                            ],
-                        ]
-                    }
+            { test: /\.jsx?$/, use: 'babel-loader' },
+            { test: /\.(png|jpg)$/i,
+                loader: 'file-loader',
+                options: {
+                    outputPath: 'images'
                 }
             },
-            {
-                test: /\.(jpe?g|png|gif|svg|mp4|webm)$/i,
-                use: [
-                    {
-                        loader: "file-loader",
-                        options: {
-                            name: "[name].[ext]",
-                            outputPath: './images',
-                        },
-                    }
-                ]
-            }
-        ]
+            { test: /\.less$/, use: [CssExtractPlugin.loader, 'css-loader', 'less-loader'] },
+            { test: /\.css$/, use: [CssExtractPlugin.loader, 'css-loader'] }
+        ],
     },
     plugins: [
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, './public/index.html'),
-            filename: 'index.html',
-            favicon: path.resolve(__dirname, './public/favicon.ico'),
+            filename: 'index.html'
         }),
-        new CssWebpackPlugin({
-            filename: 'style.css'
+        new CssExtractPlugin({
+            filename: '[name].css',
+            chunkFilename: '[id].css',
         }),
+        new CleanWebpackPlugin(),
     ]
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Header({ children, title, styleClass }) {
+function Header({ children, title, styleClass }) {
     return (
         <header>
             <div className='container-fluid'>
@@ -21,3 +21,5 @@ Header.defaultProps = {
     title: 'default title',
     styleClass: 'header-hero'
 }
+
+export default React.memo(Header);
